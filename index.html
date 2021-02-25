@@ -4,12 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosie</title>
-    https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
-    <link rel ="styleshet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="row no-gutters">
+            <a href="index.html" class ="col-md-4 logo"></a> <!-- one third width-->
+
+            <div class="col-md-8"> <!-- two thirds width using boostrap to divide the layout in thirds-->
+                <div class="row bg-color-name-title no-gutters">
+                    <div class= "col heading"> <!--class=col gives full width col-->
+                        <h1 class="name">Rosie</h1>
+                        <h2 class="title">Full Stack Developer</h2>
+                    </div>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer"><!--ask bootstrap to display list horizontally -->
+                            <li class= "col-6 col-sm-3 list-inline-item ui-menu-color-home"> 
+                                <!--  col-6 col-sm-3 will mean that it will be 
+                                    four elements wide when displayed in anything larger than a small screen size 
+                                    and two elements when viewed on a mobile format. -->
+                                <a href="#"><span>Home</span></a>
+                            </li>  
+                            <li class= "col-6 col-sm-3 list-inline-item ui-menu-color-resume"> 
+                                <a href="#"><span>Resume</span></a>
+                            </li>  
+                            <li class= "col-6 col-sm-3 list-inline-item ui-menu-color-contact"> 
+                                <a href="#"><span>Contact</span></a>
+                            </li>  
+                            <li class= "col-6 col-sm-3 list-inline-item ui-menu-color-download"> 
+                                <a href="#"><span>Download</span></a>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- two thirds col-->
+        </div> <!-- top outer row-->
+            
+        
+    </header>
     <section></section>
     <footer></footer>
 </body>
