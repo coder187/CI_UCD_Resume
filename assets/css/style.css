@@ -125,6 +125,11 @@ header{
     letter-spacing: 2px;
 }
 
+
+.Inline-Block{
+    display: inline-block;
+}
+
 /*---------------Hover.css---------------*/
 
 /*by default the hover class places a blue background on the element when the mouse hovers over
