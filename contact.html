@@ -45,10 +45,96 @@
                 </div>
             </div> <!-- two thirds col-->
         </div> <!-- top outer row-->
-            
-        
     </header>
-    <section></section>
+    <section class="container-fluid">
+        <div class="row"> <!-- The row-table class specifies the use of a table whereas section-column specifies the use of a table cell, which will give us evenly sized columns in terms of height. -->
+            <div class="col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">
+                            Personal Info
+                        </h3>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key uppercase">
+                        <p>Name</p>
+                    </div>
+                    <div class="value">
+                        <p>Rosie Odenkirk</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key uppercase">
+                        <p>Address</p>
+                    </div>
+                    <div class="value">
+                        <p>17 Riverdale, Catskills, NY USA</p>
+                    </div>
+                </div>    
+                <div class="personal-info-item">
+                    <div class="key uppercase">
+                        <p>Phone</p>
+                    </div>
+                    <div class="value">
+                        <p>555 87 1984</p>
+                    </div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key uppercase">
+                        <p>Email</p>
+                    </div>
+                    <div class="value">
+                        <p>Rosie.Odenkirk@hansaw.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 bg-color-three-reasons section-column"> <!-- section-column specifies table cell--> <!-- I don't need to add any size classes for screen sizes smaller than medium because Bootstrap will automatically default to 12, our full width.-->
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">About me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--When looked at on the mobile, this is going to be 10 columns wide with an offset of 1 so that we get the content centered and have a one column margin down the left side. We're going to switch that offset off for tablets and larger because on the tablet, we want it to appear in three columns of content. On a desktop, we want it to appear in two columns. -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> 
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">What do I do?</h4>
+                                <p>Pretty Arresting Captivating Text</p>
+                            </div>  
+                        </div>
+                    </div> <!---->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> 
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">How do I do it?</h4>
+                                <p>Pretty Arresting Captivating Text. Pretty Arresting Captivating Text. 
+                                    Pretty Arresting Captivating Text.</p>
+                            </div>  
+                        </div>
+                    </div> <!---->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6"> 
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Why Hire Me?</h4>
+                                <p>Pretty Arresting Captivating TextPretty Arresting Captivating Text.Pretty Arres.</p>
+                            </div>  
+                        </div>
+                    </div> <!---->
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class ="container-fluid">
         <div id="footer-details" class = "row">
             <div class="col-sm-4"> <!-- we dont need to supply col class for mobile screens because bootstrap defaults to full width which is what we want-->
