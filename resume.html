@@ -46,17 +46,34 @@
             </div> <!-- two thirds col-->
         </div> <!-- top outer row-->
     </header>
-    <section class="container-fluid">
-        <div class="row"> <!-- The row-table class specifies the use of a table whereas section-column specifies the use of a table cell, which will give us evenly sized columns in terms of height. -->
-            <div class="col-md-4 bg-color-personal-info section-column">
-                <div class="row">
+    <section class="container-fluid"><!-- WORK HISTORY SECTION-->
+       <div class="row"> 
+            <div class="col-md-4 bg-color-work-history section-column">
+                <div class="row"> <!--Work History Heading-->
                     <div class="col-12">
-                        <h3 class="section-heading uppercase">
+                        <h3 class="history-heading uppercase">
                             Work History
                         </h3>
                     </div>
                 </div>
-               
+                <div class="history-items">
+                    <div class="timeline-item" data-dates="02/1998 - 04/2004"> <!--custom data attribute--> <!--Role-->
+                        <h4>National College of Art an Design (NCAD)</h4>
+                        <p>Sculptor in residence</p>
+                    </div>
+                    <div class="timeline-item" data-dates="04/2004 - 06/2008"> <!--custom data attribute--> <!--Role-->
+                        <h4>Fisher and Diaz Funeral Directors</h4>
+                        <p>Junior Embalmer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2008 - 06/2011"> <!--custom data attribute--> <!--Role-->
+                        <h4>Phantom Design Inc. Dublin</h4>
+                        <p>Junior Front End Developer</p>
+                    </div>
+                    <div class="timeline-item" data-dates="06/2011 - Present"> <!--custom data attribute--> <!--Role-->
+                        <h4>Hooli Inc. Silion Valley</h4>
+                        <p>Full Stack Web Developer</p>
+                    </div>
+                </div>
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column"> <!-- section-column specifies table cell--> <!-- I don't need to add any size classes for screen sizes smaller than medium because Bootstrap will automatically default to 12, our full width.-->
                 <div class="row">
@@ -131,7 +148,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> <!-- END WORK HISTORY SECTION-->
     <footer class ="container-fluid">
         <div id="footer-details" class = "row">
             <div class="col-sm-4"> <!-- we dont need to supply col class for mobile screens because bootstrap defaults to full width which is what we want-->
